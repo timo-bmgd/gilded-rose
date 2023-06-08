@@ -7,19 +7,15 @@ prepared for usage within [Info3](https://home.htw-berlin.de/~kleinen/info3) in 
 
 If you look for the Gilded Rose Kata in general, go to the [version published by Emily Bache](https://github.com/emilybache/GildedRose-Refactoring-Kata) or [Kata-Log](https://kata-log.rocks/gilded-rose-kata) for a more general version.
 
-# Introduction: Code Katas
-
-The Term 'Kata' is a Metaphor taken from Martial Arts for a Pattern of Movements to Practice and Perfect those same Movements ([Wikipedia:Kata](https://en.wikipedia.org/wiki/Kata)). According to ([Wikipedia:Kata](https://en.wikipedia.org/wiki/Kata)), it was introduced as a practice to Software Craftsmanship by [Dave Thomas in his blog](http://codekata.com/), to practice Practices of Software Craftsmanship like TDD, Refactoring or the SOLID principles. There are several Code Kata Collections; see [Kata-Log](https://kata-log.rocks/gilded-rose-kata) for an example that can be browsed by topic and constraint.
-
 # Instructions for the Kata
 
 You will use this Kata to Practice Work on Legacy Code by 
 1. Implementing Characterization Tests
 
-and then  and then implement the new feature using 
+and then implement the new feature using 
 
-2. Refactor to make the hard change easy and
-3. Implement the Easy Change
+2. Refactoring to make the hard change easy and
+3. Implementing the Easy Change
 
 ## Step by Step
 
@@ -35,9 +31,10 @@ and then  and then implement the new feature using
 
     d. Ensure that you've written 'enough' tests by checking the test coverage
 
+
 2. Refactor to make the hard change easy
     
-    Now that you have a full test suite, you can confidently refactor the source code. Take a moment to consider which new design would make the change easy. Remember that there is a restriction though: You may not alter the Item class. 
+    Now that you have a full test suite, you can confidently refactor the source code. Take a moment to consider which new design would make the change easy. Remember that there is one restriction though: **You may not alter the Item class.**
     Which GoF-Patterns would be useful?
 
 
