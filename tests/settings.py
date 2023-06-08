@@ -16,7 +16,7 @@ from gilded_rose.refactored.gilded_rose import GildedRose, Item
 
 # initial xfail setting:
 # xfail everything
-xfail_bug = True  
+xfail_bug_in_original = True  
 xfail_bug_fix = True
 xfail_new_features = True
 
@@ -24,15 +24,18 @@ xfail_new_features = True
 # xfail setting during refactoring and bug fixing
 # xfail everything!
 
-# xfail_bug = True
+# xfail_bug_in_original = True
 # xfail_bug_fix = True
 # xfail_new_features = True
 
 # xfail setting after fixing bugs
 # xfail_bug_fix should really fail now!
-# xfail_bug = True
+
+# xfail_bug_in_original = True
 # xfail_bug_fix = False
 # xfail_new_features = True
 
-# after implementing new feature:
+
+# after implementing the new feature:
+
 # xfail_new_features = False

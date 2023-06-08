@@ -20,7 +20,7 @@ def buggy_function():
 
 
 
-@pytest.mark.xfail(xfail_bug, reason="42 bug: found in buggy_function, this should return 42!")
+@pytest.mark.xfail(xfail_bug_in_original, reason="42 bug: found in buggy_function, this should return 42!")
 def test_bug_characterization():
     assert buggy_function() == 43
 
