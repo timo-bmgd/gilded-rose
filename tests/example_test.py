@@ -1,3 +1,5 @@
+import pytest as pytest
+
 from tests.settings import *
 
 # create tests for normal items here...
