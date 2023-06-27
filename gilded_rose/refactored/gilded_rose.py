@@ -110,16 +110,16 @@ class GildedRose(object):
         for item in self.items:
             match item:
                 case ItemTypes.BRIE:
-                    item.update_brie()
+                    self.update_brie(item)
                     continue
                 case ItemTypes.BACK:
-                    item.update_backstage()
+                    self.update_backstage(item)
                     continue
                 case ItemTypes.SULF:
-                    item.update_sulfuras()
+                    self.update_sulfuras(item)
                     continue
                 case _:
-                    item.update_normal()
+                    self.update_normal(item)
                     continue
 
 
